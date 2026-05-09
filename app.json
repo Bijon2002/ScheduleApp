@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "DayMap",
+    "slug": "daymap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#030A18"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#030A18"
+      },
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM",
+        "USE_EXACT_ALARM",
+        "VIBRATE"
+      ]
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "plugins": [
+      "expo-router",
+      ["expo-notifications", { "color": "#FFD84D" }]
+    ],
+    "scheme": "daymap"
+  }
+}

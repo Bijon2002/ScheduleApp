@@ -9,6 +9,7 @@
       "backgroundColor": "#030A18"
     },
     "android": {
+      "package": "com.bijon2002.daymap",
       "adaptiveIcon": {
         "backgroundColor": "#030A18"
       },

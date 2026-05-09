@@ -24,8 +24,20 @@
     },
     "plugins": [
       "expo-router",
-      ["expo-notifications", { "color": "#FFD84D" }]
+      [
+        "expo-notifications",
+        {
+          "color": "#FFD84D"
+        }
+      ]
     ],
-    "scheme": "daymap"
+    "scheme": "daymap",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e5681bfb-ed38-4be5-b981-47d98557a877"
+      }
+    },
+    "owner": "bijon2002"
   }
 }
